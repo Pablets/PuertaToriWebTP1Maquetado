@@ -1,0 +1,131 @@
+body{font-family: Calibri;
+	margin: 0;
+	background-image:url(../imagenes/dibujotori3.jpg);
+	color: rgb(238, 236, 229);
+}
+.cuerpoprincipal{
+	width:960px;
+	border: outset 4px rgb(128, 125, 125);
+	overflow: hidden;
+	margin: auto;
+	text-align: center;
+	-webkit-box-shadow: 14px 31px 15px 3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 14px 31px 15px 3px rgba(0,0,0,0.75);
+	box-shadow: 14px 31px 15px 3px rgba(0,0,0,0.75);
+	background: rgba(87,87,87,1);
+	background: -moz-linear-gradient(top, rgba(87,87,87,1) 0%, rgba(99,99,99,1) 12%, rgba(115,115,115,1) 25%, rgba(79,79,79,1) 39%, rgba(48,48,48,1) 50%, rgba(0,0,0,1) 51%, rgba(20,20,20,1) 60%, rgba(48,48,48,1) 76%, rgba(31,31,31,1) 91%, rgba(20,20,20,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(87,87,87,1)), color-stop(12%, rgba(99,99,99,1)), color-stop(25%, rgba(115,115,115,1)), color-stop(39%, rgba(79,79,79,1)), color-stop(50%, rgba(48,48,48,1)), color-stop(51%, rgba(0,0,0,1)), color-stop(60%, rgba(20,20,20,1)), color-stop(76%, rgba(48,48,48,1)), color-stop(91%, rgba(31,31,31,1)), color-stop(100%, rgba(20,20,20,1)));
+	background: -webkit-linear-gradient(top, rgba(87,87,87,1) 0%, rgba(99,99,99,1) 12%, rgba(115,115,115,1) 25%, rgba(79,79,79,1) 39%, rgba(48,48,48,1) 50%, rgba(0,0,0,1) 51%, rgba(20,20,20,1) 60%, rgba(48,48,48,1) 76%, rgba(31,31,31,1) 91%, rgba(20,20,20,1) 100%);
+	background: -o-linear-gradient(top, rgba(87,87,87,1) 0%, rgba(99,99,99,1) 12%, rgba(115,115,115,1) 25%, rgba(79,79,79,1) 39%, rgba(48,48,48,1) 50%, rgba(0,0,0,1) 51%, rgba(20,20,20,1) 60%, rgba(48,48,48,1) 76%, rgba(31,31,31,1) 91%, rgba(20,20,20,1) 100%);
+	background: -ms-linear-gradient(top, rgba(87,87,87,1) 0%, rgba(99,99,99,1) 12%, rgba(115,115,115,1) 25%, rgba(79,79,79,1) 39%, rgba(48,48,48,1) 50%, rgba(0,0,0,1) 51%, rgba(20,20,20,1) 60%, rgba(48,48,48,1) 76%, rgba(31,31,31,1) 91%, rgba(20,20,20,1) 100%);
+	background: linear-gradient(to bottom, rgba(87,87,87,1) 0%, rgba(99,99,99,1) 12%, rgba(115,115,115,1) 25%, rgba(79,79,79,1) 39%, rgba(48,48,48,1) 50%, rgba(0,0,0,1) 51%, rgba(20,20,20,1) 60%, rgba(48,48,48,1) 76%, rgba(31,31,31,1) 91%, rgba(20,20,20,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#575757', endColorstr='#141414', GradientType=0 );
+}
+a{
+	color: #e44545
+}
+
+h1{
+	background:  rgb(235, 49, 16)url(../imagenes/torii6.jpg) no-repeat;
+	padding-top:150px;
+	padding-left: 100px;
+	margin:0px;
+	color:#ffffff;
+	font-size:30px;
+}
+
+h2, h3, h4{
+	background-color: rgb(41, 39, 39);
+	color: blanchedalmond;
+	border-radius: 75px 75px 75px 75px;
+	-moz-border-radius: 75px 75px 75px 75px;
+	-webkit-border-radius: 75px 75px 75px 75px;
+	border: 0px solid #000000;
+}
+
+#encabezado{
+	background: rgb(31, 30, 30);
+	border-radius: 75px 75px 75px 75px;
+	-moz-border-radius: 75px 75px 75px 75px;
+	-webkit-border-radius: 75px 75px 75px 75px;
+	border: 0px solid #000000;
+}
+#autorcolizq, #autorcolder{
+	width:auto;
+	display:inline-block
+}
+
+#contenedorautor, #contenedorfuentes{
+	color: blanchedalmond;
+}
+
+#autorcolder{
+	vertical-align:top;
+}
+
+#fuentesinfo > li
+{
+	list-style: none;
+}
+.navegacion{
+	width: 960px;
+	margin: 0px;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #ffffff;
+	text-decoration: none;
+	
+}
+
+.menu li a:hover{
+	color: rgb(206, 76, 53);
+	transition: all .1s;
+}
+
+.submenu{
+	position: absolute;
+	background: #524e4e;
+	width: 80%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: rgb(231, 229, 221);
+	text-decoration: none;
+
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+#apiepagina{
+	color: blanchedalmond;
+	text-decoration: none;
+}
+#piedepagina{
+	background-color: rgb(41, 39, 39);
+	width:200px;
+	margin: auto;
+	text-align: center;
+	border-radius: 75px 75px 75px 75px;
+	-moz-border-radius: 75px 75px 75px 75px;
+	-webkit-border-radius: 75px 75px 75px 75px;
+}
